@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISUchetMedosmotrov3ВреднФактПроиз",
+  "modelName": "i-i-s-uchet-medosmotrov3-вредн-факт-произ",
+  "className": "ВреднФактПроиз",
+  "nameSpace": "IIS.UchetMedosmotrov3",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "классВредФакт",
+      "relatedTo": "i-i-s-uchet-medosmotrov3-класс-вред-факт",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "индНапрМедосм",
+      "relatedTo": "i-i-s-uchet-medosmotrov3-инд-напр-медосм",
+      "inverse": "вреднФактПроиз"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ВреднФактПроизE",
+      "modelName": "i-i-s-uchet-medosmotrov3-вредн-факт-произ",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "КлассВредФакт",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Вредные факторы",
+          "name": "классВредФакт",
+          "relatedTo": "i-i-s-uchet-medosmotrov3-класс-вред-факт",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
