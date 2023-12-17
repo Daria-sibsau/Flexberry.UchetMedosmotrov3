@@ -42,10 +42,10 @@ export let defineProjections = function (modelClass) {
       подразделения: belongsTo('i-i-s-uchet-medosmotrov3-подразделения', 'Подразделения', {
         наименование: attr('Подразделение', { index: 1, hidden: true })
       }, { index: 0, displayMemberPath: 'наименование' }),
-      женщины: attr('Женщины', { index: 2 }),
-      всего: attr('Всего', { index: 3 }),
+      мужчины: attr('Мужчины', { index: 2 }),
+      женщины: attr('Женщины', { index: 3 }),
       до21Года: attr('До21 года', { index: 4 }),
-      мужчины: attr('Мужчины', { index: 5 }),
+      всего: attr('Всего', { index: 5 }),
       классВредФакт: belongsTo('i-i-s-uchet-medosmotrov3-класс-вред-факт', 'Фактор производства', {
         наименование: attr('Фактор производства', { index: 7, hidden: true })
       }, { index: 6, displayMemberPath: 'наименование' }),

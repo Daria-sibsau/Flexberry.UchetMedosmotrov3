@@ -89,14 +89,14 @@
       "modelName": "i-i-s-uchet-medosmotrov3-контингент-сотр",
       "attrs": [
         {
-          "name": "женщины",
-          "caption": "Женщины",
+          "name": "мужчины",
+          "caption": "Мужчины",
           "hidden": false,
           "index": 2
         },
         {
-          "name": "всего",
-          "caption": "Всего",
+          "name": "женщины",
+          "caption": "Женщины",
           "hidden": false,
           "index": 3
         },
@@ -107,8 +107,8 @@
           "index": 4
         },
         {
-          "name": "мужчины",
-          "caption": "Мужчины",
+          "name": "всего",
+          "caption": "Всего",
           "hidden": false,
           "index": 5
         },

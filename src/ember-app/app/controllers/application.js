@@ -28,7 +28,7 @@ export default Controller.extend({
             link: 'i-i-s-uchet-medosmotrov3-список-на-медосм-l',
             caption: i18n.t('forms.application.sitemap.формирование-списков-для-приказа.i-i-s-uchet-medosmotrov3-список-на-медосм-l.caption'),
             title: i18n.t('forms.application.sitemap.формирование-списков-для-приказа.i-i-s-uchet-medosmotrov3-список-на-медосм-l.title'),
-            icon: 'paperclip',
+            icon: 'file',
             children: null
           }]
         }, {
@@ -40,7 +40,7 @@ export default Controller.extend({
             link: 'i-i-s-uchet-medosmotrov3-инд-напр-медосм-l',
             caption: i18n.t('forms.application.sitemap.индивидуальные-направления.i-i-s-uchet-medosmotrov3-инд-напр-медосм-l.caption'),
             title: i18n.t('forms.application.sitemap.индивидуальные-направления.i-i-s-uchet-medosmotrov3-инд-напр-медосм-l.title'),
-            icon: 'chart bar',
+            icon: 'chart line',
             children: null
           }]
         }, {
@@ -52,13 +52,13 @@ export default Controller.extend({
             link: 'i-i-s-uchet-medosmotrov3-приказ-м-з-р-l',
             caption: i18n.t('forms.application.sitemap.справочная-информация.i-i-s-uchet-medosmotrov3-приказ-м-з-р-l.caption'),
             title: i18n.t('forms.application.sitemap.справочная-информация.i-i-s-uchet-medosmotrov3-приказ-м-з-р-l.title'),
-            icon: 'archive',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-uchet-medosmotrov3-класс-вред-факт-l',
             caption: i18n.t('forms.application.sitemap.справочная-информация.i-i-s-uchet-medosmotrov3-класс-вред-факт-l.caption'),
             title: i18n.t('forms.application.sitemap.справочная-информация.i-i-s-uchet-medosmotrov3-класс-вред-факт-l.title'),
-            icon: 'suitcase',
+            icon: 'folder open',
             children: null
           }]
         }, {
@@ -70,25 +70,25 @@ export default Controller.extend({
             link: 'i-i-s-uchet-medosmotrov3-подразделения-l',
             caption: i18n.t('forms.application.sitemap.организация-и-штат.i-i-s-uchet-medosmotrov3-подразделения-l.caption'),
             title: i18n.t('forms.application.sitemap.организация-и-штат.i-i-s-uchet-medosmotrov3-подразделения-l.title'),
-            icon: 'calendar',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-uchet-medosmotrov3-сотрудники-l',
             caption: i18n.t('forms.application.sitemap.организация-и-штат.i-i-s-uchet-medosmotrov3-сотрудники-l.caption'),
             title: i18n.t('forms.application.sitemap.организация-и-штат.i-i-s-uchet-medosmotrov3-сотрудники-l.title'),
-            icon: 'address card',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-uchet-medosmotrov3-организация-l',
             caption: i18n.t('forms.application.sitemap.организация-и-штат.i-i-s-uchet-medosmotrov3-организация-l.caption'),
             title: i18n.t('forms.application.sitemap.организация-и-штат.i-i-s-uchet-medosmotrov3-организация-l.title'),
-            icon: 'phone',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-uchet-medosmotrov3-должности-l',
             caption: i18n.t('forms.application.sitemap.организация-и-штат.i-i-s-uchet-medosmotrov3-должности-l.caption'),
             title: i18n.t('forms.application.sitemap.организация-и-штат.i-i-s-uchet-medosmotrov3-должности-l.title'),
-            icon: 'tasks',
+            icon: 'briefcase',
             children: null
           }]
         }
