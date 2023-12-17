@@ -155,7 +155,6 @@ namespace IIS.UchetMedosmotrov3
         public virtual void Отправить()
         {
             // *** Start programmer edit section *** (СписокНаМедосм.Отправить method implementation)
-
             return;
             // *** End programmer edit section *** (СписокНаМедосм.Отправить method implementation)
         }
@@ -167,7 +166,6 @@ namespace IIS.UchetMedosmotrov3
         public virtual void Печать()
         {
             // *** Start programmer edit section *** (СписокНаМедосм.Печать method implementation)
-
             return;
             // *** End programmer edit section *** (СписокНаМедосм.Печать method implementation)
         }

@@ -278,7 +278,6 @@ namespace IIS.UchetMedosmotrov3
         public virtual void Печать()
         {
             // *** Start programmer edit section *** (ИндНапрМедосм.Печать method implementation)
-
             return;
             // *** End programmer edit section *** (ИндНапрМедосм.Печать method implementation)
         }
@@ -290,7 +289,6 @@ namespace IIS.UchetMedosmotrov3
         public virtual void Удалить()
         {
             // *** Start programmer edit section *** (ИндНапрМедосм.Удалить method implementation)
-
             return;
             // *** End programmer edit section *** (ИндНапрМедосм.Удалить method implementation)
         }
