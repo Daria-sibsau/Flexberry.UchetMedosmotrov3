@@ -12,6 +12,7 @@ namespace IIS.UchetMedosmotrov3
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -31,11 +32,13 @@ namespace IIS.UchetMedosmotrov3
         // *** Start programmer edit section *** (ПолСотрудника.Мужской CustomAttributes)
 
         // *** End programmer edit section *** (ПолСотрудника.Мужской CustomAttributes)
+        [Caption("Мужской")]
         Мужской,
         
         // *** Start programmer edit section *** (ПолСотрудника.Женский CustomAttributes)
 
         // *** End programmer edit section *** (ПолСотрудника.Женский CustomAttributes)
+        [Caption("Женский")]
         Женский,
     }
 }
